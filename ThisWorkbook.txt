@@ -1,0 +1,6 @@
+Cole no objeto ThisWorkbook do Excel:
+Private Sub Workbook_Open()
+    On Error Resume Next
+    VF_ValidarLicenca
+    On Error GoTo 0
+End Sub
